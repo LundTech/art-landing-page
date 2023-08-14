@@ -1,0 +1,17 @@
+.footer-text {
+  text-align: center;
+  /* color: #868e96; */
+  font-weight: bold;
+  font-family: "Google Sans Regular";
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  height: 20rem;
+}

@@ -1,0 +1,66 @@
+.bg-image {
+  display: flex;
+  color: white;
+  padding: 10rem;
+  line-height: 1;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url(../../assests/images/home/pawel-czerwinski-yn97LNy0bao-unsplash.webp);
+  background-size: cover;
+}
+
+.bg-image-text {
+  font-size: 12rem;
+}
+
+.bg-image-btn-container {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 2rem 0rem;
+  padding: 0rem 2rem 0rem;
+}
+
+.bg-image-btn {
+  padding: 1rem 6rem 1rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 0.2rem;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.bg-image-text-subtitle {
+  font-size: 5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.background-image-img {
+  width: 100%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+@media (max-width: 1380px) {
+  .bg-image-text {
+    font-size: 7rem;
+  }
+  .bg-image-text-subtitle {
+    font-size: 4rem;
+  }
+
+.bg-image-btn {
+  font-size: 2rem;
+}
+
+  
+}
+
+@media (max-width: 768px) {
+  .bg-image {
+    padding: 5rem;
+    font-size: 4rem;
+  }
+  .bg-image-text-subtitle {
+    font-size: 4rem;
+  }
+}

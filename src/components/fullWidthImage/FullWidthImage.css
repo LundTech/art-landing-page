@@ -1,0 +1,20 @@
+.full-width-image-div {
+  display: 'flex';
+  flex: 1;
+}
+
+.full-width-image-img {
+  width: 100%;
+}
+
+@media (max-width: 1380px) {
+  .full-width-image-div {
+    height: 15rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .full-width-image-div {
+    height: 10rem;
+  }
+}

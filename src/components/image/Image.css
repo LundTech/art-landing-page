@@ -1,0 +1,19 @@
+.image-div {
+  height: 30rem;
+  overflow: hidden;
+}
+
+.image-img {
+}
+
+@media (max-width: 1380px) {
+  .image-div {
+    height: 15rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-div {
+    height: 10rem;
+  }
+}
