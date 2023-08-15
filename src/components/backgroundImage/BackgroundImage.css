@@ -1,7 +1,7 @@
 .bg-image {
   display: flex;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
-    url(../../assets/images/home/pawel-czerwinski-yn97LNy0bao-unsplash.webp);
+    url(../../assets/images/home/pawel-czerwinski-yn97LNy0bao-unsplash-_1_.webp);
   background-size: cover;
   flex-direction: column;
   height: 100vh;

@@ -6,10 +6,10 @@ import Modal from "../../components/modal/Modal.js";
 const Home = () => {
   const [showModal, setShowModal] = useState(false);
 
-  const backgroundImage = require(`../../assets/images/home/pawel-czerwinski-yn97LNy0bao-unsplash.webp`);
+  const backgroundImage = require(`../../assets/images/home/pawel-czerwinski-yn97LNy0bao-unsplash-_1_.webp`);
 
   const onRSVPButtonPress = () => {
-    setShowModal(!showModal); 
+    setShowModal(!showModal);
   };
 
   const onModalDismiss = () => {
@@ -18,10 +18,15 @@ const Home = () => {
 
   return (
     <div>
-      {showModal && <Modal showModal={showModal} onModalDismiss={onModalDismiss}/> }
-      <BackgroundImage src={backgroundImage} onRSVPButtonPress={onRSVPButtonPress} />
+      {showModal && (
+        <Modal showModal={showModal} onModalDismiss={onModalDismiss} />
+      )}
+      <BackgroundImage
+        src={backgroundImage}
+        onRSVPButtonPress={onRSVPButtonPress}
+      />
     </div>
   );
-}
+};
 
 export default Home;
