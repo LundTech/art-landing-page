@@ -1,11 +1,16 @@
 .bg-image {
   display: flex;
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url(../../assets/images/home/pawel-czerwinski-yn97LNy0bao-unsplash-_1_.webp);
+  background-size: cover;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.bg-image-text-container {
+  display: flex;
   color: white;
   padding: 10rem;
   line-height: 1;
-  height: 100vh;
-  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url(../../assets/images/home/pawel-czerwinski-yn97LNy0bao-unsplash.webp);
-  background-size: cover;
 }
 
 .bg-image-text {
@@ -21,7 +26,7 @@
 
 .bg-image-btn {
   padding: 1rem 6rem 1rem;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 0.2rem;
   background-color: black;
   color: white;
@@ -35,37 +40,45 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.background-image-img {
-  width: 100%;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-
+.credit-container {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.credit {
+.credit-text {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.credit-text-link {
   color: white;
 }
 
+
 @media (max-width: 1380px) {
+  .bg-image-text-container {
+    padding: 5rem;
+  }
   .bg-image-text {
-    font-size: 7rem;
+    font-size: 8rem;
   }
   .bg-image-text-subtitle {
     font-size: 4rem;
   }
 
-.bg-image-btn {
-  font-size: 2rem;
-}
-
-  
+  .bg-image-btn {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 768px) {
-  .bg-image {
-    padding: 5rem;
-    font-size: 4rem;
+  .bg-image-text-container {
+    padding: 1rem;
+  }
+  .bg-image-text {
+    font-size: 6rem;
   }
   .bg-image-text-subtitle {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }

@@ -49,6 +49,7 @@
 @media (max-width: 1380px) {
   .modal-form {
     font-size: 4rem;
+    padding: 2rem 4rem 2rem;
   }
   
 }
