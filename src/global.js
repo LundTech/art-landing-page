@@ -15,8 +15,10 @@ export const GlobalStyles = createGlobalStyle`
     // flex-direction: column;
     // justify-content: center;
     // height: 100vh;
-    // margin: 0;
-    // padding: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     font-family: ${({ theme }) => theme.font};
     transition: all 0.25s linear;
   }`;

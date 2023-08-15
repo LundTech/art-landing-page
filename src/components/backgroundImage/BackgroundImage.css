@@ -1,9 +1,12 @@
 .bg-image {
   display: flex;
-  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url(../../assets/images/home/pawel-czerwinski-yn97LNy0bao-unsplash-_1_.webp);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
+    url(../../assets/images/home/pawel-czerwinski-yn97LNy0bao-unsplash-_1_.webp);
   background-size: cover;
   flex-direction: column;
   height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 .bg-image-text-container {
@@ -26,7 +29,7 @@
 
 .bg-image-btn {
   padding: 1rem 6rem 1rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 0.2rem;
   background-color: black;
   color: white;
@@ -53,7 +56,6 @@
 .credit-text-link {
   color: white;
 }
-
 
 @media (max-width: 1380px) {
   .bg-image-text-container {
