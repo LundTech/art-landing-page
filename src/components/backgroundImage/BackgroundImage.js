@@ -4,8 +4,7 @@ import { Fade } from "react-reveal";
 
 class BackgroundImage extends Component {
   render() {
-    const src = this.props.src;
-    const alt = this.props.alt;
+    const onRSVPButtonPress= this.props.onRSVPButtonPress;
     return (
       <div>
         <Fade>
@@ -14,7 +13,7 @@ class BackgroundImage extends Component {
                 <span className="bg-image-text">Experience <br/>art </span>
                 <span className="bg-image-text-subtitle">18th of August 7PM EST <br/>East West Gallery Street</span>
                 <div className="bg-image-btn-container">
-                  <input className="bg-image-btn" type="button" value={"RSVP"}></input>
+                  <input className="bg-image-btn" type="button" value={"RSVP"} onClick={onRSVPButtonPress}></input>
                 </div>
                 
               </div>

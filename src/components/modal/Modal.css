@@ -1,0 +1,36 @@
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  line-height: 1;
+  width: 100%;     /* Full width */
+  height: 100%;    /* Full height */
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  z-index: 1000;   /* High z-index ensures the overlay is on top */
+  font-size: 5rem;
+}
+
+.modal-form {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 10rem;
+  width: 50%;
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+  border-radius: 0.5rem;
+}
+
+
+@media (max-width: 1380px) {
+  .modal-form {
+    font-size: 4rem;
+  }
+  
+}
+
+
+
+@media (max-width: 768px) {
+}
