@@ -108,6 +108,7 @@
 
   .bg-image-text-container {
     display: flex;
+    padding: 2rem;
   }
 
   .bg-image-text {
