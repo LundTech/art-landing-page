@@ -13,10 +13,12 @@ class BackgroundImage extends Component {
                 <span className="bg-image-text">Experience <br/>art </span>
                 <span className="bg-image-text-subtitle">18th of August 7PM EST <br/>East West Gallery Street</span>
                 <div className="bg-image-btn-container">
-                  <input className="bg-image-btn" type="button" value={"RSVP"} onClick={onRSVPButtonPress}></input>
+                  <input className="bg-image-btn" type="button" value={"Sign up"} onClick={onRSVPButtonPress}></input>
                 </div>
-                
               </div>
+            <div style={{ display: 'flex' }} className="credit">
+              Credit
+            </div>
             </div>
         </Fade>
       </div>

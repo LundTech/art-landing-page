@@ -13,12 +13,35 @@
 
 .modal-form {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background-color: black;
+  padding: 2rem 16rem 2rem;
   color: white;
-  height: 10rem;
-  width: 50%;
-  background: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+  border-radius: 0.5rem;
+}
+
+.modal-input {
+  padding: 1rem 1rem 1rem 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.modal-input-btn {
+  padding: 0.5rem 4rem 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.modal-input-btn-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem 1rem 0.5rem;
+  font-size: 1.5rem;
   border-radius: 0.5rem;
 }
 
