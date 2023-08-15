@@ -4,10 +4,10 @@
   align-items: center;
   position: fixed;
   line-height: 1;
-  width: 100%;     /* Full width */
-  height: 100%;    /* Full height */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
   background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-  z-index: 1000;   /* High z-index ensures the overlay is on top */
+  z-index: 1000; /* High z-index ensures the overlay is on top */
   font-size: 5rem;
 }
 
@@ -45,16 +45,35 @@
   border-radius: 0.5rem;
 }
 
-
 @media (max-width: 1380px) {
   .modal-form {
     font-size: 4rem;
     padding: 2rem 4rem 2rem;
   }
-  
 }
 
-
-
 @media (max-width: 768px) {
+}
+
+@media (max-width: 600px) {
+  .modal-input {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .modal-form {
+    font-size: 1rem;
+    padding: 1rem 2rem 1rem;
+  }
+
+  .modal-input-btn {
+    padding: 0.5rem 2rem 0.5rem;
+    font-size: 1rem;
+  }
+
+  .modal-input-btn-container {
+    padding: 1rem 1rem 1rem 0.5rem;
+    font-size: 1rem;
+  }
 }
