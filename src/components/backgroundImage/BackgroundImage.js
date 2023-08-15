@@ -30,7 +30,7 @@ class BackgroundImage extends Component {
               ></input>
             </div>
           </div>
-          {/* <Credit/> */}
+          <Credit />
         </div>
       </Fade>
     );
