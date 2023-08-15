@@ -1,3 +1,12 @@
 .credit-container {
-    margin: 0rem 1rem 0rem;
+  margin: 0rem 1rem 0rem;
+}
+
+@media (max-width: 1380px) {
+}
+
+@media (max-width: 768px) {
+  .credit-text {
+    font-size: 1.5rem;
+  }
 }
