@@ -15,8 +15,7 @@ export const GlobalStyles = createGlobalStyle`
     // flex-direction: column;
     // justify-content: center;
     // height: 100vh;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
     margin: 0;
     padding: 0;
     font-family: ${({ theme }) => theme.font};
